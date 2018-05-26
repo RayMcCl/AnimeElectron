@@ -1,0 +1,19 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [],
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "module": "es6",
+        "paths": {
+            "~/*": ["src/*"],
+            "COMPONENTS/*": ["src/components/*"],
+            "ROUTES/*": ["src/routes/*"],
+            "SERVICES/*": ["src/services/*"],
+            "STORE/*": ["src/store/*"],
+            "RESOURCES/*": ["src/resources/*"]
+        }
+    }
+}
